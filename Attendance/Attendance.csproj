@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="GeoCoordinate.NetCore" Version="1.0.0.1" />
+		<PackageReference Include="QRCoder" Version="1.6.0" />
+		<PackageReference Include="System.Device.Location.Portable" Version="1.0.0" />
+		<PackageReference Include="Telegram.Bot" Version="22.3.0" />
+		<PackageReference Include="WTelegramClient" Version="4.2.9-dev.4" />
+	</ItemGroup>
+</Project>
